@@ -1,0 +1,6 @@
+{
+  "name": "인문철학 워크숍 강사 송정훈 포트폴리오",
+  "description": "스스로 길어 올린 질문 하나를 손에 쥐고 돌아가는 자리 — 인문철학 · 자기탐구 워크숍 강사 송정훈(송호들)의 공식 웹 포트폴리오",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
