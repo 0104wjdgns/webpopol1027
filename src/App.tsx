@@ -20,12 +20,12 @@ import {
 } from 'lucide-react';
 
 // High-fidelity image assets generated for Song Jeong-hoon's portfolio
-const IMAGES = {
-  heroInterior: '/src/assets/images/hero_workshop_interior_1793101143612.jpg',
-  portrait: '/src/assets/images/portrait_philosophy_facilitator_1793101144398.jpg',
-  dialogueTable: '/src/assets/images/arch_dialogue_table_1793101145288.jpg',
-  reflectionCards: '/src/assets/images/craft_reflection_cards_1793101145863.jpg',
-};
+import heroInterior from './assets/images/hero_workshop_interior_1793101143612.jpg';
+import portrait from './assets/images/portrait_philosophy_facilitator_1793101144398.jpg';
+import dialogueTable from './assets/images/arch_dialogue_table_1793101145288.jpg';
+import reflectionCards from './assets/images/craft_reflection_cards_1793101145863.jpg';
+
+const IMAGES = { heroInterior, portrait, dialogueTable, reflectionCards };
 
 export default function App() {
   const [selectedCurriculum, setSelectedCurriculum] = useState<'single' | 'basic' | 'deep'>('basic');
